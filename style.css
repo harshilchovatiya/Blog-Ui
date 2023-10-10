@@ -342,6 +342,7 @@ section {
 .banner {
     width: 50%;
     height: 190px;
+    border-radius: 12px;
     max-height: 250px;
     overflow: hidden;
     position: relative;
@@ -511,13 +512,12 @@ button {
     }
 }
 
-.page-footer {
+/* .page-footer {
     background: #000;
     display: flex;
-    /* position: fixed; */
     align-items: center;
     justify-content: space-evenly;
-}
+} */
 
 .footer-nav {
     display: flex;
@@ -572,7 +572,7 @@ button {
 }
 
 .footer {
-    background-color: #333;
+    background-color: #000;
     color: white;
     padding: 30px 40px;
     text-align: center;

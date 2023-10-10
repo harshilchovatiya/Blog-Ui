@@ -1,18 +1,18 @@
 // Function to handle the progress bar
-function handleProgressBar() {
-  let progress = document.getElementById("progressbar");
+// function handleProgressBar() {
+//   let progress = document.getElementById("progressbar");
 
-  if (progress) {
-    let totalHeight = document.body.scrollHeight - window.innerHeight;
+//   if (progress) {
+//     let totalHeight = document.body.scrollHeight - window.innerHeight;
 
-    window.onscroll = function () {
-      let progressHeight = (window.pageYOffset / totalHeight) * 100;
-      progress.style.height = progressHeight + "%";
-    };
-  } else {
-    console.error("Element with ID 'progressbar' not found in the document.");
-  }
-}
+//     window.onscroll = function () {
+//       let progressHeight = (window.pageYOffset / totalHeight) * 100;
+//       progress.style.height = progressHeight + "%";
+//     };
+//   } else {
+//     console.error("Element with ID 'progressbar' not found in the document.");
+//   }
+// }
 
 // Function to handle the scroll-to-top button
 function handleScrollToTop() {
@@ -32,6 +32,6 @@ function handleScrollToTop() {
 
 // Call the functions when the DOM is ready
 $(document).ready(function () {
-  handleProgressBar();
+  // handleProgressBar();
   handleScrollToTop();
 });
